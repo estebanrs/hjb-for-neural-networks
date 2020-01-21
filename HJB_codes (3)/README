@@ -1,0 +1,28 @@
+Este programa está basado en el artículo
+
+  @inproceedings{arora2017hjb,
+  title={HJB equation based learning scheme for neural networks},
+  author={Arora, Vipul and Behera, Laxmidhar and Reddy, Tharun Kumar and Yadav, Ajay Pratap},
+  booktitle={Neural Networks (IJCNN), 2017 International Joint Conference on},
+  pages={2298--2305},
+  year={2017},
+  organization={IEEE}
+  }
+
+Los autores piden que lo citen si se usa el programa.
+
+Abrir matlab y correr "main.m"
+
+AIM: 
+  Entrenar FFNN para datos de una cuenca usando diferentes argoritmos y 
+  comparando los resultados.
+
+INPUT: 
+  Seleccionar el número de neuronales en la capa oculta.
+  Seleccionar los parámetros del algoritmo.
+
+OUTPUT:
+  El comportamiento de convergencia del error se puede graficar con el comando "plot(err_<algoritmo>)"
+  La red neuronal entrenada se guarda en "NN_<algoritmo>"
+  Las salidas de la red para los patrones de entrenamiento se pueden visualizar usando "test(NN_<algoritmo>,data)"
+  Las salidas de la red para los datos de prueba se pueden visualizar usando "test(NN_<algoritmo>,newdata)"
